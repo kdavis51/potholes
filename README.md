@@ -49,7 +49,7 @@ runme.py -  this is a copy of the latest working code.   runme.py must to be sto
 
 gps.dat – sample gps data
 
-Wiring.png –wiring diagram 
+Wiring.jpg –wiring diagram 
 
 -----------------------------------------------------------------------------------------------------------------------
 
