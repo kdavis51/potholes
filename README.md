@@ -43,13 +43,28 @@ Features
 
 -----------------------------------------------------------------------------------------------------------------------
 
-gps-v4.0.3 – latest code
+gps-v4.0.4
 
-runme.py -  this is a copy of the latest working code.   runme.py must to be stored in /home/pi/Documents folder
+	- fixed ctrl-c exit hang
 
-gps.dat – sample gps data
+runme.py
 
-Wiring.jpg –wiring diagram 
+	this is a copy of the latest working code.   runme.py must to be stored in /home/pi/Documents folder
+
+gps.dat
+
+	sample gps data
+
+Wiring.jpg
+
+	wiring diagram 
+
+index.php 
+
+	code that leverage google maps API and places markers on a map 
+	NOTE - Google API has been removed and replaced with XXXXXXXX
+
+
 
 -----------------------------------------------------------------------------------------------------------------------
 
