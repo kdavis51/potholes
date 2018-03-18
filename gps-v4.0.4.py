@@ -16,6 +16,7 @@ if os.path.exists(filename):
 	GPSdata=open(filename, 'a')
 else:
 	GPSdata=open(filename, 'w')
+	GPSdata.write('lon,lat,date,desc\n')
 
 GPSdata.close()
 
