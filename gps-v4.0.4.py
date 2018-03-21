@@ -148,7 +148,7 @@ def upload(stuff):
 		GPIO.output(UploadLED,GPIO.HIGH)
 		print ("\nUploading GPS Data to the cloud....\n")
 		
-		s = ftplib.FTP('ec2-34-234-70-61.compute-1.amazonaws.com','myftpuser','myftpuser')
+		s = ftplib.FTP('ec2-34-234-70-61.compute-1.amazonaws.com','XXXXXXXX','XXXXXXX')
 
 		f = open('/home/pi/Documents/gps.dat','rb')
 		s.storbinary('STOR gps.dat' ,f)
